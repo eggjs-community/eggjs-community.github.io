@@ -13,7 +13,7 @@ export const menus = {
 export const github = {
   owner: 'eggjs',
   repo: 'egg',
-  token: '7bc6c1c93f26f3212e07530b673fa254bfb777dc',
+  token: '',
 };
 
 

@@ -14,10 +14,10 @@ export default class release extends Component {
 
   componentDidMount() {
     this.github = new octokit();
-    this.github.authenticate({
-      type: 'token',
-      token: config.token,
-    });
+    // this.github.authenticate({
+    //   type: 'token',
+    //   token: config.token,
+    // });
     this.load();
   }
 
