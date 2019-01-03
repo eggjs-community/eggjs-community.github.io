@@ -1,6 +1,7 @@
 // ref: https://umijs.org/config/
 export default {
   theme: require('./theme-config'),
+  history: 'hash',
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
     [
@@ -9,7 +10,7 @@ export default {
         antd: true,
         dva: false,
         dynamicImport: false,
-        title: 'eggjs-community',
+        title: 'Egg.js Community',
         dll: false,
         locale: {
           default: 'zh-CN', //默认语言 zh-CN

@@ -1,8 +1,8 @@
-import styles from './posts.css';
+// import styles from './posts.css';
 
 export default function() {
   return (
-    <div className={styles.normal}>
+    <div className="container">
       <h1>Page post</h1>
     </div>
   );

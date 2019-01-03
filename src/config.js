@@ -1,4 +1,7 @@
 export { default as logo } from './assets/logo.svg';
+export { default as qrcode_dingtalk } from './assets/qrcode_dingtalk.png'
+export { default as qrcode_wechat_duncup } from './assets/qrcode_wechat_duncup.jpeg';
+export { default as qrcode_wechat_suyi } from './assets/qrcode_wechat_suyi.jpg';
 
 export const menus = {
   posts: '/posts',
@@ -10,5 +13,7 @@ export const menus = {
 export const github = {
   owner: 'eggjs',
   repo: 'egg',
-  token: process.env.github_token || '',
+  token: '7bc6c1c93f26f3212e07530b673fa254bfb777dc',
 };
+
+

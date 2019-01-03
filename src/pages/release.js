@@ -14,10 +14,10 @@ export default class release extends Component {
 
   componentDidMount() {
     this.github = new octokit();
-    // this.github.authenticate({
-    //   type: 'token',
-    //   token: config.token,
-    // });
+    this.github.authenticate({
+      type: 'token',
+      token: config.token,
+    });
     this.load();
   }
 
@@ -53,7 +53,7 @@ export default class release extends Component {
     const pendingDot = loading ? null : <Icon type="tags" />;
 
     return (
-      <div className={styles.container}>
+      <div className="container">
         <Spin spinning={loading} className={styles.spin}>
           <Timeline mode="alternate" pending={pending} pendingDot={pendingDot}>
             {tags.map(tag => {

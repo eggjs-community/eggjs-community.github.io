@@ -1,8 +1,8 @@
-import styles from './plugins.css';
+// import styles from './plugins.css';
 
 export default function() {
   return (
-    <div className={styles.normal}>
+    <div className="container">
       <h1>Page plugins</h1>
     </div>
   );
