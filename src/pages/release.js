@@ -6,7 +6,7 @@ import octokit from '@octokit/rest';
 import styles from './release.css';
 import { github as config } from '../config';
 
-export default class release extends Component {
+export default class Release extends Component {
   state = {
     tags: [],
     loading: true,

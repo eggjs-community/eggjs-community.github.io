@@ -1,9 +1,11 @@
-// import styles from './tutorials.css';
+import React, { Component } from 'react'
 
-export default function() {
-  return (
-    <div className="container">
-      <h1>Page tutorials</h1>
-    </div>
-  );
+export default class Tutorials extends Component {
+  render() {
+    return (
+      <div className="container">
+      Tutorials
+      </div>
+    )
+  }
 }

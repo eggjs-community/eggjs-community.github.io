@@ -24,7 +24,7 @@ const message =
   '因微信群成员数已超过100，无法二维码邀请。请先加下面两位同学的微信，留言 `eggjs-community`';
 
 // <ReactMarkdown source={data} />
-export default class Home extends Component {
+export default class Index extends Component {
   render() {
     return (
       <div className="container">
